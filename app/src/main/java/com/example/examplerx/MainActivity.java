@@ -32,7 +32,10 @@ public class MainActivity extends AppCompatActivity {
 
         void execute() {
             String threadName = Thread.currentThread().getName();
-            Log.v("Hello darkness my old friend", threadName);
+            Log.v("Hello, world", threadName);
+            Log.v("Hello, world", threadName);
+            Log.v("Hello, world", threadName);
+            Log.v("Hello, world", threadName);
         }
     }
 
